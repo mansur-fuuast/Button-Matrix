@@ -146,7 +146,10 @@ void main(void) {
 ```
 # Usage
 1. Create a MPLab new project. 
-![alt text]((https://github.com/mansur-fuuast/Button-Matrix/blob/main/images/MPlab%201.png))
+<p align="center">
+  <img src="[your_relative_path_here](https://github.com/mansur-fuuast/Button-Matrix/blob/main/images/MPlab%201.png)" width="350" title="hover text">
+  <img src="[your_relative_path_here_number_2_large_name](https://github.com/mansur-fuuast/Button-Matrix/blob/main/images/MPlab%201.png)" width="350" alt="accessibility text">
+</p>
 2. Select **"Microchip Embedded"** in Categories tab and **"Application Project(s)"** in Projects tab. Click Next
 3. In next screen,
    (i)    Select **"Mid-Range 8-bit MCUs (PIC10/12/16/MCP)"** from Family dropdown,
