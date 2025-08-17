@@ -186,4 +186,8 @@ void main(void) {
 
 15. Click on the folder icon in front of **Program File** option, navigate to your project folder ```-> dist -> default -> production``` and select the .hex file.
 
-16. Click OK, and while getting back to your project scematics in Proteus click Run Simulation. Hurrah! if you have output like this, you programmed the micrcontroller successfully!
+16. Click OK, and while getting back to your project scematics in Proteus click Run Simulation. Click on the switches, if you get result similar to below Hurrah! you programmed the micrcontroller successfully!
+![ButtonMatrixVid](https://github.com/user-attachments/assets/1ec6ff54-9d45-4848-b72a-106a25b3677a)
+
+# Queries / Questions
+for any query or question feel free to contact at m.mansoor.ahmed@outlook.com or mansoor.ahmed@fuuast.edu.pk
