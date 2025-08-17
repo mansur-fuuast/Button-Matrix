@@ -146,14 +146,44 @@ void main(void) {
 ```
 # Usage
 1. Create a MPLab new project. 
-<p align="center">
-  <img src="[your_relative_path_here](https://github.com/mansur-fuuast/Button-Matrix/blob/main/images/MPlab%201.png)" width="350" title="hover text">
-  <img src="[your_relative_path_here_number_2_large_name](https://github.com/mansur-fuuast/Button-Matrix/blob/main/images/MPlab%201.png)" width="350" alt="accessibility text">
-</p>
+
 2. Select **"Microchip Embedded"** in Categories tab and **"Application Project(s)"** in Projects tab. Click Next
+<img width="958" height="503" alt="MPlab 1" src="https://github.com/user-attachments/assets/8a11c190-6699-41ad-b95f-8f5aa16ced1a" />
+
 3. In next screen,
    (i)    Select **"Mid-Range 8-bit MCUs (PIC10/12/16/MCP)"** from Family dropdown,
    (ii)   Select **"PIC16F627A"** from Device dropdown, and
    (iii)  Select **"Simulator"** from Tool dropdown and click next.
-4. In next screen select **"Supported Debug Header"** from the drop down if you want to debug your app.
-5. 
+<img width="959" height="504" alt="MPlab 2" src="https://github.com/user-attachments/assets/cafb3a7e-1889-40c3-9800-122e185480f2" />
+
+4. In next screen select **"Supported Debug Header"** from the drop down if you want to debug your app. Click Next
+<img width="959" height="502" alt="MPlab 3" src="https://github.com/user-attachments/assets/e42994af-cb17-4e04-ad65-2d3e58c650e8" />
+
+5. In the Select Compiler Window, Select XC8 from the window, Click Next.
+<img width="959" height="503" alt="MPlab 4" src="https://github.com/user-attachments/assets/43b2935b-0330-4f23-a411-99519c2072fc" />
+
+6. Enter your project name, and click finish
+   <img width="959" height="503" alt="MPlab 5" src="https://github.com/user-attachments/assets/7803c04a-2115-4cfb-8bb8-9f80e5d621be" />
+
+7. Your project will be created but now it has no files, add file by clicking the add file button. A Window will open like given here. Select and Expand **"Microchip Embedded"** in the categories tab and further select "XC8 Compiler". In the File types select **"main.c"**. Click Next
+<img width="959" height="503" alt="MPlab 6" src="https://github.com/user-attachments/assets/a7a67df1-fbf0-4292-b23d-bb50597263eb" />
+<img width="959" height="503" alt="MPlab 7" src="https://github.com/user-attachments/assets/a2a3ec34-1f00-4040-ad74-75f9fca43249" />
+
+8. In next screen, change name of file if you want or leave it as main.c, Click finish. Your c code file has been generated with minimal code.
+   <img width="959" height="502" alt="MPlab 9" src="https://github.com/user-attachments/assets/f81ca523-f8d2-40d6-acab-392f6e6ed0a6" />
+
+9. Download main.c from this reposiry or copy paste the complete code given in this readme.md file into your now created file in MPLab IDE.
+
+10. Press F11, or in the main menu select **Production** and click **Build Main Project**
+
+11. Wait for the compiler to build your project and verify in Output Window Project Build Successfully appears in greaan font.
+<img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/04a9558b-1a26-40ed-a39d-d3be4ce3e998" />
+
+12. You can create a scematic in the Proteus IDE like the given below:
+
+13. Double click the PIC16F627A microcontroller and a window will appear like below:
+<img width="959" height="504" alt="image" src="https://github.com/user-attachments/assets/1bb594d6-a4dd-4573-9314-19bbc834ec29" />
+
+15. Click on the folder icon in front of **Program File** option, navigate to your project folder ```-> dist -> default -> production``` and select the .hex file.
+
+16. Click OK, and while getting back to your project scematics in Proteus click Run Simulation. Hurrah! if you have output like this, you programmed the micrcontroller successfully!
