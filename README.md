@@ -44,7 +44,7 @@ static unsigned char scan_button_matrix(void) {
 The Matrix coulmns are switched between input / output pins and then listened for corresponding Row for logic level LOW, whichever pin is pulled to LOW corresponding switch press is detected.
 
 # Complete Code
-```/*
+```C Code/*
  2x2 Button Matrix to control 04 LEDs
  * Designed for PIC16F627A Microcontroller ship
  * 
