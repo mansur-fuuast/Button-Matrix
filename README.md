@@ -145,7 +145,8 @@ void main(void) {
 }
 ```
 # Usage
-1. Create a MPLab new project. (images/MPlab 1.png)
+1. Create a MPLab new project. 
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 2. Select **"Microchip Embedded"** in Categories tab and **"Application Project(s)"** in Projects tab. Click Next
 3. In next screen,
    (i)    Select **"Mid-Range 8-bit MCUs (PIC10/12/16/MCP)"** from Family dropdown,
